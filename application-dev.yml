@@ -1,1 +1,8 @@
 
+spring:
+  application:
+    name: DEV-Application
+    eureka:
+      client:
+        service-URL:
+          defaultzone: http://localhost:8761/eureka/
